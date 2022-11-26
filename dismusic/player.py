@@ -82,7 +82,7 @@ class DisPlayer(Player):
         embed.set_author(
             name=track.author,
             url=track.uri,
-            icon_url=self.client.user.display_avatar.url,
+            icon_url=self.client.user.avatar_url,
         )
         try:
             embed.set_thumbnail(url=track.thumb)
